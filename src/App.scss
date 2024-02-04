@@ -1,0 +1,37 @@
+
+
+$primary: #3E37F7;
+$border-radius:25px;
+.btn-primary{
+    color: $primary;
+}
+
+.login-box{
+    max-width: 40vw;
+    margin: 0 auto;
+}
+.log-btn{
+    width: 100%;
+}
+.img{
+    height: 90vh !important;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.navbar{
+    z-index: 10;
+}
+.body{
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@import '~bootstrap/scss/bootstrap';
